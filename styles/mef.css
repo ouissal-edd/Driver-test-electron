@@ -1,0 +1,60 @@
+.tout{
+  display: none;
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  /*background:#FFFFFF;
+  background-repeat:repeat-x;*/
+  width:100%;
+  font-family:Calibri;
+  font-size:13px;
+  color:#666666;
+  background-color:#EDEEEE;
+  background-attachment: fixed;
+}
+
+h1{
+  font-size:28px;
+  font-weight:bold;
+  margin-bottom:10px;}
+
+input{
+  width:250px;
+  height:30px;
+  /*Coins arrondis*/
+  border:#333 1px solid;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  text-align:left;
+  padding-left:5px;
+  font-size:20px;
+  background-color:#fff;
+  color:#7030a0;
+  font-weight:bold;
+  text-decoration:none;
+  margin-top:-5px;
+}
+
+input[type="text"]{	width:650px;	font-size:16px;}
+input[type="button"]
+{
+     width:130px;
+  	 height:35px;
+}
+
+#cadre{	width:700px;	height:350px;}#prop{	visibility:hidden;	position:absolute;	background-color:#EDEEEE;	height:auto;	width:640px;	border:#333 1px solid;	-moz-border-radius: 10px;    -webkit-border-radius: 10px;akground-color:#EDEEEE;	background:rgba(100,100,100,.8);	color:#ccccff;	font-weight:bold;	font-size:20px;	margin-top:5px;	padding:5px;	cursor:pointer;}a:link {    color:#EDEEEE;	text-decoration:none;}a:visited {    color:#EDEEEE;	text-decoration:none;}a:hover {    color:#EDEEEE;	text-decoration:none;}a:active {    color:#EDEEEE;	text-decoration:none;}.flux{	padding:0px;	margin:0px;	width:auto;}.flux:hover{	color:#EDEEEE;}.titre_cat{	color:#66666;}.calque_titre{	width:auto;	display:block;	height:auto;	text-align:center;	background-color:#ccccff;	border:#7030a0 1px solid;	-moz-border-radius: 10px;    -webkit-border-radius: 10px;		ding-top:12px;	box-shadow: 6px 6px 0px #aaa;	color:#7030a0;txte_div{	font-size:15px;	z-index:130;	position:absolute;	border-style:none;	background-image:url(fond/fd-roll.gif);	width:250px;	height:170px;	visibility:hidden;	text-align:center;}.astuce{	width:auto;	color:#66666;	font-weight:normal;	font-size:15px;	padding:10px;	text-align:center;}.colonne{	width:720px;	float:left;	height:auto;	text-align:center;	border:#333 1px solid;	-moz-border-radius: 10px;    -webkit-border-radius: 10px;		agound-color:#EDEEEE;	background:rgba(100,100,100,.1);	color:#66666;	font-weight:bold;	font-size:20px;	padding-top:16px;	padding-bottom:10px;	margin-bottom:20px;	margin-left:40px;}.calque_rep{	width:295px;	margin:30px;	padding-top:25px;	float:left;	height:50px;	text-align:center;	border:#333 1px solid;	-moz-border-radius: 10px;    -webkit-border-radius: 10px;bcrund-color:#EDEEEE;	border:#7030a0 1px solid;	color:#7030a0;	font-size:20px;	/*margin-bottom:20px;	margin-left:40px;*/	font-family:"Lucida Calligraphy";	}cqe_rep:hover{	cursor:pointer;	box-shadow: 6px 6px 0px #aaa;	background-color:#ccccff;}
+.titre_centre
+{
+background: blue;
+display: flex;
+}
+
+  .centre{	width:800px;	float:left;	text-align:center;}.div_conteneur_parent{	width:100%;	height:auto;	text-align:center;}.div_conteneur_page{	margin-top:5px;	width:1200px;	text-align:left;	border:#666666 1px solid;	height:auto;	display:inline-block;	background-color:#FFFFFF;	-moz-border-radius: 10px;    -webkit-border-radius: 10px;    border-radius: 5px;	}tt_age{	width:auto;	padding-top:18px;	height:42px;	font-family:Calibri;	color:#FFFFFF;	text-align:right;	background-image:url(../images/bg-tech-std.png);	background-repeat:no-repeat;	background-color:#666666;	padding-right:10px;}.div_saut_ligne{	width:100%;	height:75px;	display:inline-block;}.div_int_page{	width:100%;	float:left;	padding-left:15px;	padding-right:15px;	padding-bottom:15px;	padding-top:5px;	height:auto;	font-size:14px;	font-family:Calibri;	color:#666666;	text-align:left;}
