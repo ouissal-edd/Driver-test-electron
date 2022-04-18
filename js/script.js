@@ -2,10 +2,8 @@ var bonne_rep = 0; var nb_questions = 10;
 var nb_erreurs = 0; var mem_nb_alea="";
 var jouer=false;
 
- nom = document.getElementById('nom').value;
- prenom = document.getElementById('prenom').value;
- console.log('nom',nom);
- console.log('prenom',prenom);
+ 
+
 
 function debuter()
 {
@@ -22,6 +20,8 @@ function init()
 	document.getElementById('restant').innerText = nb_questions;
 	var correct = document.getElementById('score').innerText = 10-nb_erreurs;
 	console.log('correct',correct);
+	const nom = document.getElementById('nom').value;
+ 	const prenom = document.getElementById('prenom').value;
 	if (nb_questions == 0) {
 		document.getElementById('result').innerText = "Votre scrore " + correct + " sur 10" ;
 		document.getElementById('votre-nom').innerText = "Votre nom " + nom ;
