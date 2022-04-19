@@ -1,4 +1,4 @@
-var bonne_rep = 0; var nb_questions = 10;
+var bonne_rep = 0; var nb_questions = 40;
 var nb_erreurs = 0; var mem_nb_alea="";
 var jouer=false;
 
@@ -8,7 +8,7 @@ var jouer=false;
 function debuter()
 {
 	jouer = true;
-	bonne_rep = 0; nb_questions = 10;
+	bonne_rep = 0; nb_questions = 40;
 	nb_erreurs = 0; mem_nb_alea="";
 	console.log('jouer',jouer);
 	init();
@@ -18,12 +18,12 @@ function debuter()
 function init()
 {
 	document.getElementById('restant').innerText = nb_questions;
-	var correct = document.getElementById('score').innerText = 10-nb_erreurs;
+	var correct = document.getElementById('score').innerText = 40-nb_erreurs;
 	console.log('correct',correct);
 	const nom = document.getElementById('nom').value;
  	const prenom = document.getElementById('prenom').value;
 	if (nb_questions == 0) {
-		document.getElementById('result').innerText = "Votre scrore " + correct + " sur 10" ;
+		document.getElementById('result').innerText = "Votre scrore " + correct + " sur 40" ;
 		document.getElementById('votre-nom').innerText = "Votre nom " + nom ;
 		document.getElementById('votre-prenom').innerText = "Votre prénom " + prenom ;
 		document.getElementById("tout").classList.add('tout');
